@@ -1,0 +1,115 @@
+/*
+JC Website Home, Cascading style sheet
+Author: Jonathan Carrera
+Start Date: December 20th 2016
+End Date: 1/14/2017
+
+*/
+
+/* Defualt style for ever element */
+* {
+	font-family: "Times New Roman", Times, serif;
+}
+
+
+/* Logo styles */
+header img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 75px; 
+	animation: pulse 6s infinite;
+}
+
+/* Pulse effect on logo */
+@keyframes pulse{
+	0%{box-shadow:  #0AFFFF 10px 10px 15px }
+	50%{box-shadow: black 10px 10px 15px}
+	100%{box-shadow: #0AFFFF 10px 10px 15px}
+}
+
+@-webkit-keyframes pulse{
+	0%{box-shadow:  #0AFFFF 10px 10px 15px }
+	50%{box-shadow: black 10px 10px 15px}
+	100%{box-shadow: #0AFFFF 10px 10px 15px}
+}
+
+/* Body element */
+body{
+	margin: 0px auto;
+	padding: 0px;
+	width: 98%;
+	max-width: 800px;
+	min-width: 250px;
+	background: -o-linear-gradient(left, rgb(72, 72, 72), rgb(231, 231, 231) );
+	background: -ms-linear-gradient(left, rgb(72, 72, 72), rgb(231, 231, 231) );
+	background: -moz-linear-gradient(left, rgb(72, 72, 72), rgb(231, 231, 231) );
+	background: -webkit-linear-gradient(left, rgb(72, 72, 72), rgb(231, 231, 231) );
+	background: linear-gradient(left, rgb(71, 72, 72), rgb(231, 231, 231) );
+}
+
+/* Header element */
+header{
+	padding-bottom: 50px;
+}
+
+/* Horisonatal navigation list */
+nav a{
+	text-decoration: none;
+}
+
+nav.horizontal{
+	width: 100%;
+}
+
+nav.horizontal li{
+	display: block;
+	float: left; 
+	width: 30%;
+	background-color: none;
+	padding: 5px 0px; 
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 100%;
+	border-bottom: 2px solid black;
+}
+
+nav.horizontal a{
+	color: rgb(10, 280, 255);
+	/*Hexadecimal for the above color is: 0AFFFF */
+}
+
+nav.horizontal a:hover{
+	color: white;
+
+}
+
+/* JC Programming and Web Design style */
+h1{
+	font-size: 200%;
+	font-weight: normal;
+	letter-spacing: 5px;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+/* Article and paragraph styles */
+p {
+	/*font-family: "Courier New", Courier, monospace; 
+	letter-spacing: 0.2em; */
+	line-height: 1.5em; 
+}
+
+section {
+	margin-bottom: 75px;
+}
+
+
+
+
+
+
+
+/* Styles */
